@@ -19,19 +19,27 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-#Program to swap two values.
-#Developed by:BALA B 
-#RegisterNumber:212224100005
-A=input()
-B=input()
-s=B
-r=A
-print("Swapped values are:",s,r,end=" ")
+try:
+    a = int(input())
+    b = int(input())
+
+    temp = a
+    a = b
+    b = temp
+
+    print("Swapped values are:", a, b)
+
+except EOFError:
+    pass
 ```
+
 ## OUTPUT:
-<img width="1851" height="988" alt="image" src="https://github.com/user-attachments/assets/2dfa148a-c306-4d19-ad1a-271f4dd8edf7" />
+<img width="1026" height="487" alt="image" src="https://github.com/user-attachments/assets/be825e30-9a8b-440a-864a-2ffd0e5eaeae" />
+
 
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
+
+
 
